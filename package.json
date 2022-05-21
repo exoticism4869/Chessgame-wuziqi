@@ -3,6 +3,10 @@
 	"version": "1.0.0",
 	"description": "五子棋",
 	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/exoticism4869/Chessgame-wuziqi-.git"
+	},
 	"scripts": {
 		"dev": "webpack serve --open --config ./config/webpack.dev.config.js",
 		"build": "webpack --config ./config/webpack.prod.config.js",
