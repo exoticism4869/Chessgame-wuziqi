@@ -14,6 +14,7 @@ export default {
 	output: {
 		filename: '[name].[hash:8].js',
 		path: path.resolve(__dirname, '../docs'),
+		publicPath: 'https://exoticism4869.github.io/Chessgame-wuziqi/',
 		clean: true
 	},
 	module: {
