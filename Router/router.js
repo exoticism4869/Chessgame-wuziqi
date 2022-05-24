@@ -1,7 +1,7 @@
 import ModeChoose from 'src/Views/ModeChoose.vue'
 import OfflineChess from 'src/Views/OfflineChess.vue'
 import OnlineChess from 'src/Views/OnlineChess.vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
 	{
@@ -26,6 +26,6 @@ const routes = [
 ]
 
 export const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes
 })
