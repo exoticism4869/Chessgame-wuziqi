@@ -1,6 +1,6 @@
 # 单机/局域网五子棋
 
-![image-20220524170248896](C:\Users\86177\AppData\Roaming\Typora\typora-user-images\image-20220524170248896.png)
+![image-20220524170248896](./example.png)
 
 ## 单机五子棋[链接](https://exoticism4869.github.io/Chessgame-wuziqi/#/mode-choose)
 
@@ -18,6 +18,6 @@ npm run websocketServer
 
 接下来点击终端中打印出的地址访问即可进行在线游戏
 
-![image-20220524170140411](C:\Users\86177\AppData\Roaming\Typora\typora-user-images\image-20220524170140411.png)
+![image-20220524170140411](./runningExample.png)
 
 _在线游戏还有一些交互不是很完善，接下来会逐渐完善_
