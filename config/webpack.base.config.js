@@ -8,13 +8,12 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 export default {
-	mode: 'development',
 	entry: {
 		app: './src/index.js'
 	},
 	output: {
-		filename: '[name].js',
-		path: path.resolve(__dirname, '../dist'),
+		filename: '[name].[hash:8].js',
+		path: path.resolve(__dirname, '../docs'),
 		clean: true
 	},
 	module: {
